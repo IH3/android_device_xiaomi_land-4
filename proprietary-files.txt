@@ -1123,12 +1123,22 @@ vendor/lib/hw/gatekeeper.msm8937.so
 vendor/lib64/hw/gatekeeper.msm8937.so
 
 # GPS - from OnePlus MSM8996
+etc/permissions/com.qti.location.sdk.xml
+etc/permissions/com.qualcomm.location.xml
+etc/permissions/izat.xt.srv.xml
+-framework/com.qti.location.sdk.jar
+-framework/izat.xt.srv.jar
 lib/vendor.qti.gnss@1.0.so
 lib64/vendor.qti.gnss@1.0.so
+-priv-app/com.qualcomm.location/com.qualcomm.location.apk
 vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/loc_launcher
 vendor/bin/slim_daemon
 vendor/bin/xtra-daemon
+vendor/bin/xtwifi-client
+vendor/bin/xtwifi-inet-agent
+vendor/etc/cacert_location.pem
+vendor/etc/xtra_root_cert.pem
 vendor/etc/init/vendor.qti.gnss@1.0-service.rc
 vendor/lib/hw/vendor.qti.gnss@1.0-impl.so
 vendor/lib/vendor.qti.gnss@1.0_vendor.so
