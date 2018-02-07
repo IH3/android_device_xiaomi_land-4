@@ -256,7 +256,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager
 
-# Init scripts ramdisk
+# Init
 PRODUCT_PACKAGES += \
     init.qcom.bt.sh \
     init.qcom.power.rc \
