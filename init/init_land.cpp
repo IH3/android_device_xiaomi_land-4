@@ -182,7 +182,7 @@ void variant_properties()
 {
     std::string device;
 
-    device = GetProperty("ro.validus.device", "");
+    device = GetProperty("ro.lineage.device", "");
     if (device != "land")
         return;
 

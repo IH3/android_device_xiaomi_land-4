@@ -134,9 +134,6 @@ PRODUCT_PACKAGES += \
     Snap
 
 PRODUCT_PACKAGES += \
-    SnapdragonCamera
-
-PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
     android.hardware.camera.provider@2.4-impl \
@@ -179,6 +176,10 @@ PRODUCT_PACKAGES += \
 # Display calibration
 PRODUCT_PACKAGES += \
     libjni_livedisplay
+
+# Doze mode
+PRODUCT_PACKAGES += \
+    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \
