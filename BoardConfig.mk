@@ -18,6 +18,8 @@
 
 DEVICE_PATH := device/xiaomi/land
 
+TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
+
 # Architecture
 TARGET_ARCH 	    	:= arm64
 TARGET_ARCH_VARIANT 	:= armv8-a
