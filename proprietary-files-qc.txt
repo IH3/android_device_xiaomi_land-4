@@ -697,7 +697,11 @@ vendor/radio/qcril_database/qcril.db
 -app/ims/ims.apk
 -app/imssettings/imssettings.apk
 -app/uceShimService/uceShimService.apk
+etc/permissions/com.qualcomm.qti.imscmservice.xml
+etc/permissions/com.qualcomm.qti.imscmservice_1_1.xml
 etc/permissions/qti-vzw-ims-internal.xml
+-framework/com.qualcomm.qti.imscmservice@1.0-java.jar
+-framework/com.qualcomm.qti.imscmservice@1.1-java.jar
 lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/com.qualcomm.qti.imscmservice@1.1.so
 lib/lib-imscamera.so
